@@ -58,9 +58,9 @@ def main():
     
     
 while True:
-	#try:
+	try:
 		main()
-	#except Exception as e :
+	except Exception as e :
 		print('error',e)
 		time.sleep(60*60)
 
