@@ -43,6 +43,7 @@ def main():
             try:
                 #print(img, body)
             	tweet(img,body)
+            	pyHashtag.update()
             except Exception as e:
             	print(e)
             data['done'] = data['done']+[i['id']]
